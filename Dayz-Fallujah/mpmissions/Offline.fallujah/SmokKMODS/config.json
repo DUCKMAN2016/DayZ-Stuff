@@ -1,0 +1,214 @@
+{
+  "firstSpawnDelaySeconds": 60,
+  "spawnIntervalSeconds": 600,
+  "maxVehicles": 30,
+  "vehicleLifetimeSeconds": 172800,
+  "deleteOldVehicles": true,
+  "vehicles": [
+    // Civilian Vehicles
+    {
+      "className": "Sedan_02",
+      "spawnPoints": [
+        {
+          "x": 4500,
+          "y": 0,
+          "z": 4500,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        },
+        {
+          "x": 5000,
+          "y": 0,
+          "z": 5000,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["Sedan_02_Door_1_1", "Sedan_02_Door_2_1", "Sedan_02_Door_1_2", "Sedan_02_Door_2_2"],
+        "hood": "Sedan_02_Hood",
+        "trunk": "Sedan_02_Trunk",
+        "battery": "TruckBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "Hatchback_02",
+      "spawnPoints": [
+        {
+          "x": 5500,
+          "y": 0,
+          "z": 5500,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["Hatchback_02_Door_1_1", "Hatchback_02_Door_2_1", "Hatchback_02_Door_1_2", "Hatchback_02_Door_2_2"],
+        "hood": "Hatchback_02_Hood",
+        "trunk": "Hatchback_02_Trunk",
+        "battery": "CarBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "Truck_01_Covered",
+      "spawnPoints": [
+        {
+          "x": 6000,
+          "y": 0,
+          "z": 6000,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["Truck_01_Door_1_1", "Truck_01_Door_2_1"],
+        "hood": "Truck_01_Hood",
+        "battery": "TruckBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    
+    // Military Vehicles - HMMWV (Humvee) variants
+    {
+      "className": "HMMWV_Armored",
+      "spawnPoints": [
+        {
+          "x": 3500,
+          "y": 0,
+          "z": 3500,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        },
+        {
+          "x": 4000,
+          "y": 0,
+          "z": 4000,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["HMMWV_Door_1_1", "HMMWV_Door_2_1", "HMMWV_Door_1_2", "HMMWV_Door_2_2"],
+        "hood": "HMMWV_Hood",
+        "battery": "TruckBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "HMMWV_M2",
+      "spawnPoints": [
+        {
+          "x": 3800,
+          "y": 0,
+          "z": 3800,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["HMMWV_Door_1_1", "HMMWV_Door_2_1", "HMMWV_Door_1_2", "HMMWV_Door_2_2"],
+        "hood": "HMMWV_Hood",
+        "battery": "TruckBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "HMMWV_Ambulance",
+      "spawnPoints": [
+        {
+          "x": 4200,
+          "y": 0,
+          "z": 4200,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["HMMWV_Door_1_1", "HMMWV_Door_2_1", "HMMWV_Door_1_2", "HMMWV_Door_2_2"],
+        "hood": "HMMWV_Hood",
+        "battery": "TruckBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    
+    // Helicopters
+    {
+      "className": "UH1H",
+      "spawnPoints": [
+        {
+          "x": 3000,
+          "y": 0,
+          "z": 3000,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        },
+        {
+          "x": 6500,
+          "y": 0,
+          "z": 6500,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["UH1H_Door_1_1", "UH1H_Door_1_2"],
+        "battery": "HelicopterBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "UH60",
+      "spawnPoints": [
+        {
+          "x": 2800,
+          "y": 0,
+          "z": 2800,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["UH60_Door_1_1", "UH60_Door_2_1"],
+        "battery": "HelicopterBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    },
+    {
+      "className": "Mi8",
+      "spawnPoints": [
+        {
+          "x": 3200,
+          "y": 0,
+          "z": 3200,
+          "useAutoHeight": true,
+          "rotation": [0, 0, 0]
+        }
+      ],
+      "vehicleParts": {
+        "doors": ["Mi8_Door_1_1", "Mi8_Door_2_1"],
+        "battery": "HelicopterBattery",
+        "sparkplug": "SparkPlug"
+      },
+      "fuel": 100,
+      "coolant": 100
+    }
+  ]
+}
