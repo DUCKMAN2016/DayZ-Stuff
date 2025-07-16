@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+    <categories>
+        <category name="egyptiantreasure"/>      
+        <category name="mazetreasure"/>      
+        <category name="story"/>      
+        <category name="WeaponsParts"/>
+        <category name="Weaponammo"/>
+        <category name="WeaponMag"/>
+        <category name="tools"/>
+        <category name="containers"/>
+        <category name="clothes"/>
+        <category name="food"/>
+        <category name="weapons"/>
+        <category name="explosives"/>
+    </categories>
+    <tags>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+    </tags>
+    <usageflags>
+			<usage name="EgyptianTemple"/>      
+			<usage name="MazeTemple"/>      
+			<usage name="Notes"/>       
+			<usage name="Bonus"/>      
+			<usage name="PoliceCar"/>
+			<usage name="AmbulanceCar"/>      
+			<usage name="EasterParts"/>      
+			<usage name="PoliceStation"/>	
+			<usage name="Crate"/>      
+			<usage name="Coast"/>
+			<usage name="Farm"/>
+			<usage name="Firefighter"/>
+			<usage name="Hunting"/>
+			<usage name="Industrial"/>
+			<usage name="Medic"/>
+			<usage name="Military"/>
+			<usage name="Office"/>
+			<usage name="Police"/>
+			<usage name="Town"/>
+			<usage name="School"/>
+			<usage name="Village"/>
+			<usage name="Lunapark"/>
+			<usage name="Historical"/>
+			<usage name="Temple"/>
+			<usage name="WorldTrade"/>
+			<usage name="HeliCrashW"/>
+			<usage name="AirdropCrate"/>
+			<usage name="WreckLoot"/>
+			<usage name="RareMilitary"/>
+			<usage name="Bunkers"/>
+			<usage name="Pub"/>
+			<usage name="Usefulltools"/>
+			<usage name="Prison"/>
+			<usage name="SeasonalEvent"/>
+			<usage name="ContaminatedArea"/>
+    </usageflags>
+    <valueflags>
+			<value name="Tier1"/>
+			<value name="Tier2"/>
+			<value name="Tier3"/>
+			<value name="Tier4"/>
+			<value name="Tier5"/>
+			<value name="Tier6"/>
+			<value name="Unique"/>
+    </valueflags>
+</lists>

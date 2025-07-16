@@ -1,0 +1,9 @@
+# Ignore large binary files and databases
+*.bin
+*.map
+*.db
+*.001
+*.002
+*.lock
+storage_*/data/
+storage_*/backup/
